@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PracticaProductos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_s_stock_add">Product\'s Stock</string>
+    <string name="product_s_name_add">Product\'s name</string>
+    <string name="product_s_description_add">Product\'s Description</string>
+    <string name="add_product_button">Add Product</string>
+    <string name="name_list">Name</string>
+    <string name="stock_list">Stock</string>
+    <string name="delete_list">Delete</string>
+</resources>

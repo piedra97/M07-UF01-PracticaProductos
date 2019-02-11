@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <ImageView android:id="@+id/imageDetail"
+               android:layout_width="@dimen/image_details"
+               android:layout_height="@dimen/h_image_details"
+               android:layout_marginStart="@dimen/start_image_details"
+               android:layout_marginTop="@dimen/top_image_details"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               android:layout_marginLeft="@dimen/l_image_details" app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginEnd="@dimen/end_image_details" android:layout_marginRight="@dimen/r_image_details"
+               app:layout_constraintHorizontal_bias="0.088"/>
+    <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameDetails" android:layout_marginTop="@dimen/top_name_details"
+            app:layout_constraintTop_toBottomOf="@+id/imageDetail"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/end_name_details" android:layout_marginRight="@dimen/r_name_details"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="@dimen/l_name_details"
+            android:layout_marginStart="@dimen/s_name_details"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_stock_details"
+            android:id="@+id/stockDetails" android:layout_marginEnd="@dimen/end_stock_details" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/r_stock_details" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/l_stock_Details" android:layout_marginStart="@dimen/start_stock_details" android:layout_marginTop="@dimen/top_stock_details"
+            app:layout_constraintTop_toBottomOf="@+id/nameDetails"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descDetails"
+            android:layout_marginBottom="@dimen/bot_desc_details"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/l_desc_details" android:layout_marginStart="@dimen/start_desc_details" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/end_desc_details" android:layout_marginRight="@dimen/right_desc_details" android:layout_marginTop="@dimen/top_desc_details"
+            app:layout_constraintTop_toBottomOf="@+id/stockDetails" app:layout_constraintVertical_bias="0.238"/>
+
+
+</android.support.constraint.ConstraintLayout>

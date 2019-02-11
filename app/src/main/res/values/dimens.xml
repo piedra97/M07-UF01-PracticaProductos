@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_details">120dp</dimen>
+    <dimen name="h_image_details">100dp</dimen>
+    <dimen name="start_image_details">120dp</dimen>
+    <dimen name="top_image_details">84dp</dimen>
+    <dimen name="l_image_details">120dp</dimen>
+    <dimen name="end_image_details">8dp</dimen>
+    <dimen name="r_image_details">8dp</dimen>
+    <dimen name="top_name_details">60dp</dimen>
+    <dimen name="end_name_details">8dp</dimen>
+    <dimen name="r_name_details">8dp</dimen>
+    <dimen name="l_name_details">8dp</dimen>
+    <dimen name="s_name_details">8dp</dimen>
+    <dimen name="h_stock_details">24dp</dimen>
+    <dimen name="end_stock_details">8dp</dimen>
+    <dimen name="r_stock_details">8dp</dimen>
+    <dimen name="l_stock_Details">8dp</dimen>
+    <dimen name="start_stock_details">8dp</dimen>
+    <dimen name="top_stock_details">56dp</dimen>
+    <dimen name="bot_desc_details">8dp</dimen>
+    <dimen name="l_desc_details">8dp</dimen>
+    <dimen name="start_desc_details">8dp</dimen>
+    <dimen name="end_desc_details">8dp</dimen>
+    <dimen name="right_desc_details">8dp</dimen>
+    <dimen name="top_desc_details">8dp</dimen>
+    <dimen name="start_stock_ad">4dp</dimen>
+    <dimen name="top_stock_add">60dp</dimen>
+    <dimen name="start_name_add">4dp</dimen>
+    <dimen name="top_name_add">84dp</dimen>
+    <dimen name="bot_button_add">24dp</dimen>
+    <dimen name="start_button_add">248dp</dimen>
+    <dimen name="top_button_add">8dp</dimen>
+    <dimen name="start_desc_add">4dp</dimen>
+    <dimen name="top_desc_add">60dp</dimen>
+    <dimen name="w_image_list">32dp</dimen>
+    <dimen name="h_image_list">50dp</dimen>
+    <dimen name="top_image_list">20dp</dimen>
+    <dimen name="top_name_list">40dp</dimen>
+    <dimen name="top_stock_list">40dp</dimen>
+    <dimen name="start_stock_list">20dp</dimen>
+    <dimen name="end_stock_list">16dp</dimen>
+    <dimen name="left_stock_list">12dp</dimen>
+    <dimen name="r_stock_list">16dp</dimen>
+    <dimen name="top_delete_list">40dp</dimen>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="@dimen/w_image_list"
+                android:layout_height="@dimen/h_image_list" app:srcCompat="@drawable/manzana" android:id="@+id/imageProduct"
+                android:layout_weight="1" android:layout_marginTop="@dimen/top_image_list"/>
+        <TextView
+                android:text="@string/name_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/NameProduct"
+                android:layout_marginTop="@dimen/top_name_list"
+        />
+        <TextView
+                android:text="@string/stock_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Stock" android:layout_weight="1"
+                android:layout_marginTop="@dimen/top_stock_list"
+                android:layout_marginStart="@dimen/start_stock_list"
+                android:layout_marginEnd="@dimen/end_stock_list"
+                android:layout_marginLeft="@dimen/left_stock_list"
+                android:layout_marginRight="@dimen/r_stock_list"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/deleteText" android:layout_weight="1"
+                android:layout_marginTop="@dimen/top_delete_list"
+                android:textColorHint="@color/colour_delete_clickable"
+                android:clickable="true"
+                android:hint="@string/delete_list"/>
+
+    </LinearLayout>
+</LinearLayout>
